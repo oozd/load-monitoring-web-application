@@ -5,7 +5,7 @@ import vuetify from "vite-plugin-vuetify";
 
 export default defineConfig({
   plugins: [vue(), vuetify({ autoImport: true })],
-  base: "/load-monitoring/",
+  base: "/load-monitoring-web-application/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
