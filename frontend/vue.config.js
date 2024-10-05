@@ -1,6 +1,6 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  transpileDependencies: true,
+  transpileDependencies: ["vuetify"],
   publicPath: "/load-monitoring/",
   devServer: {
     port: 8080,
