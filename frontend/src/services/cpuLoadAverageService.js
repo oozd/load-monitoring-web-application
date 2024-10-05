@@ -13,7 +13,7 @@ export async function fetchCpuLoadAverageAndDate() {
       hour12: false,
     });
 
-    const load = Math.floor(Math.random() * 201);
+    const load = Math.floor(Math.random() * 251);
 
     return { load, date };
     /* Mock the data to serve on githubio */
